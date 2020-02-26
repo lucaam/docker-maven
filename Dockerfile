@@ -1,8 +1,8 @@
 FROM openjdk:8-jdk
 
-ARG MAVEN_VERSION=3.0.2
+ARG MAVEN_VERSION=3.0.5
 ARG USER_HOME_DIR="/root"
-ARG SHA=eedd18952c373824c32b2fa891569bdf3776f650
+ARG SHA=aecc0d3d67732939c0056d4a0d8510483ee1167e
 ARG BASE_URL=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/${MAVEN_VERSION}
 
 
